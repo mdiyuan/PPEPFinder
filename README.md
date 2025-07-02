@@ -10,7 +10,7 @@ The positive and negative samples used for training, respectively. The positive-
 
 - The additional_dataset.fasta contains newly reported effector proteins were manually collected from publications published between January 1, 2023 and December 31, 2024.
 
-- 'Fungal_addtional_dataset' (54 positive and 162 negative samples) and 'Oomycete_additional_dataset' (72 positive and 216 negative samples)
+- `Fungal_addtional_dataset` (54 positive and 162 negative samples) and `Oomycete_additional_dataset` (72 positive and 216 negative samples)
 # Seq_Based_Model
 The Seq_Based_Model is mainly based on the DeepSecE model (Zhang et al., 2023) (https://github.com/zhangyumeng1sjtu/DeepSecE). 
 Specifically, the model employs ESM as a pretrained protein language model to extract initial embedding representations from input protein sequences. These embeddings are then passed through a Transformer layer to further capture and learn sequence-level features for downstream prediction tasks.
